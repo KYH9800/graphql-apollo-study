@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "nodemon index.js"
+    "dev": "nodemon index"
   },
   "author": "yalco",
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^2.19.0",
     "convert-csv-to-json": "^1.0.0",
-    "graphql": "^15.4.0"
+    "graphql": "^15.4.0",
+    "nodemon": "^2.0.16"
   }
 }

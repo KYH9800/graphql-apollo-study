@@ -1,28 +1,28 @@
-const { gql } = require('apollo-server')
+const { gql } = require('apollo-server');
 
 const typeDefs = gql`
-    enum Sex {
-        male
-        female
-    }
+  enum Sex {
+    male
+    female
+  }
 
-    enum BloodType {
-        A
-        B
-        AB
-        O
-    }
-    
-    enum Role {
-        developer
-        designer
-        planner
-    }
+  enum BloodType {
+    A
+    B
+    AB
+    O
+  }
 
-    enum NewOrUsed {
-        new
-        used
-    }
-`
+  enum Role {
+    developer
+    designer
+    planner
+  }
 
-module.exports = typeDefs
+  enum NewOrUsed {
+    new
+    used
+  }
+`;
+
+module.exports = typeDefs;
